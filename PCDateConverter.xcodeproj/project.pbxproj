@@ -105,9 +105,9 @@
 		F9D6A4ED1E064EB300B613D1 /* PCDateConverter */ = {
 			isa = PBXGroup;
 			children = (
+				F9D6A5071E0687BB00B613D1 /* Model */,
 				F9D6A4EE1E064EB300B613D1 /* PCDateConverter.h */,
 				F9D6A4EF1E064EB300B613D1 /* Info.plist */,
-				F9D6A5051E0685F500B613D1 /* Date.swift */,
 			);
 			path = PCDateConverter;
 			sourceTree = "<group>";
@@ -119,6 +119,14 @@
 				F9D6A4FB1E064EB400B613D1 /* Info.plist */,
 			);
 			path = PCDateConverterTests;
+			sourceTree = "<group>";
+		};
+		F9D6A5071E0687BB00B613D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6A5051E0685F500B613D1 /* Date.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
