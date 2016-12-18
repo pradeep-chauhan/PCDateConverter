@@ -33,7 +33,7 @@ s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter.git"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/pradeep-chauhan/PCDateConverter", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/pradeep-chauhan/PCDateConverter.git", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :git => "https://github.com/pradeep-chauhan/PCDateConverter", :tag => "#{s.version}"}
