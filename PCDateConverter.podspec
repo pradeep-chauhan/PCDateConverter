@@ -11,7 +11,12 @@ s.requires_arc = true
 s.version = "0.1.0"
 
 # 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+#s.license = { :type => "MIT", :file => "LICENSE" }
+s.license = { :type => 'MIT', :text => <<-LICENSE
+Copyright 2012
+Permission is granted to...
+LICENSE
+}
 
 # 4 - Replace with your name and e-mail address
 s.author = { "Pradeep Chauhan" => "prdpchauhan4@gmail.com" }
@@ -40,8 +45,8 @@ s.source = { :git => "https://github.com/pradeep-chauhan/PCDateConverter", :tag 
 # s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "PCDateConverter/**/*.{swift}"
+#s.source_files = "PCDateConverter/**/*.{swift}"
 
 # 9
-s.resources = "PCDateConverter/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "PCDateConverter/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

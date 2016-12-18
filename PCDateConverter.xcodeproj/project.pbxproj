@@ -12,6 +12,7 @@
 		F9D6A4F51E064EB400B613D1 /* PCDateConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D6A4EB1E064EB300B613D1 /* PCDateConverter.framework */; };
 		F9D6A4FA1E064EB400B613D1 /* PCDateConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6A4F91E064EB400B613D1 /* PCDateConverterTests.swift */; };
 		F9D6A4FC1E064EB400B613D1 /* PCDateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D6A4EE1E064EB300B613D1 /* PCDateConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D6A5061E0685F500B613D1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6A5051E0685F500B613D1 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		F9D6A4F41E064EB400B613D1 /* PCDateConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCDateConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D6A4F91E064EB400B613D1 /* PCDateConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCDateConverterTests.swift; sourceTree = "<group>"; };
 		F9D6A4FB1E064EB400B613D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D6A5051E0685F500B613D1 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				F9D6A4EE1E064EB300B613D1 /* PCDateConverter.h */,
 				F9D6A4EF1E064EB300B613D1 /* Info.plist */,
+				F9D6A5051E0685F500B613D1 /* Date.swift */,
 			);
 			path = PCDateConverter;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				TargetAttributes = {
 					F9D6A4EA1E064EB300B613D1 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					F9D6A4F31E064EB400B613D1 = {
@@ -311,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D6A5061E0685F500B613D1 /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6CE6D875B2479A51EE67D2AB /* Pods-PCDateConverter.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -447,6 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.PCDateConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -455,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6809A5A6CD05414304D66C6 /* Pods-PCDateConverter.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -474,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C00DD23D06F696FDC08B12C7 /* Pods-PCDateConverterTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PCDateConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.PCDateConverterTests;
@@ -486,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F68258918E9402F8D3329B9C /* Pods-PCDateConverterTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PCDateConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pradeep.PCDateConverterTests;
@@ -513,6 +523,7 @@
 				F9D6A5011E064EB400B613D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9D6A5021E064EB400B613D1 /* Build configuration list for PBXNativeTarget "PCDateConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				F9D6A5041E064EB400B613D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
