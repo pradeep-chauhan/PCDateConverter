@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '10.0'
+s.ios.deployment_target = '8.0'
 s.name = "PCDateConverter"
 s.summary = "PCDateConverter lets a convert date to different format."
 s.requires_arc = true
