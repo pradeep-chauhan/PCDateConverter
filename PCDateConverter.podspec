@@ -26,10 +26,10 @@ s.author = { "Pradeep Chauhan" => "prdpchauhan4@gmail.com" }
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter"
+s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter.git"
 
 # For example,
-# s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter"
+# s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter.git"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
@@ -45,7 +45,7 @@ s.source = { :git => "https://github.com/pradeep-chauhan/PCDateConverter", :tag 
 # s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-#s.source_files = "PCDateConverter/**/*.{swift}"
+s.source_files = "PCDateConverter/**/*.{swift}"
 
 # 9
 #s.resources = "PCDateConverter/**/*.{png,jpeg,jpg,storyboard,xib}"
