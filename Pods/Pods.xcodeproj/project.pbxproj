@@ -18,20 +18,20 @@
 /* Begin PBXFileReference section */
 		085B9145F9CF25418F469E271C32381B /* Pods-PCDateConverterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PCDateConverterTests-resources.sh"; sourceTree = "<group>"; };
 		1A4B521AB3AF76FBFAE9BB0738E1BE8E /* Pods-PCDateConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PCDateConverter.debug.xcconfig"; sourceTree = "<group>"; };
-		3356BB9030700D05ACD72BF9E4A5348E /* Pods_PCDateConverterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PCDateConverterTests.framework; path = "Pods-PCDateConverterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3356BB9030700D05ACD72BF9E4A5348E /* Pods_PCDateConverterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCDateConverterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3855BA172C6D7B7B95F783E7217A36AC /* Pods-PCDateConverterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PCDateConverterTests-umbrella.h"; sourceTree = "<group>"; };
 		47BAEFC22AFF37CFDA471062693E9CD2 /* Pods-PCDateConverterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PCDateConverterTests-frameworks.sh"; sourceTree = "<group>"; };
-		4F492BB0C470892D804D7C714AE4BEE9 /* Pods-PCDateConverterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PCDateConverterTests.modulemap"; sourceTree = "<group>"; };
+		4F492BB0C470892D804D7C714AE4BEE9 /* Pods-PCDateConverterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PCDateConverterTests.modulemap"; sourceTree = "<group>"; };
 		6151BD28F5E4FAC6B2E533ED9880F586 /* Pods-PCDateConverter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PCDateConverter-resources.sh"; sourceTree = "<group>"; };
-		6600FB1FC81B8D10DA308EE1B7471FAC /* Pods-PCDateConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PCDateConverter.modulemap"; sourceTree = "<group>"; };
+		6600FB1FC81B8D10DA308EE1B7471FAC /* Pods-PCDateConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PCDateConverter.modulemap"; sourceTree = "<group>"; };
 		66ABAD43455900898BAAC72B6463F914 /* Pods-PCDateConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PCDateConverter.release.xcconfig"; sourceTree = "<group>"; };
 		7450B964C8E794F6D2C39F17A3D25549 /* Pods-PCDateConverterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PCDateConverterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E8E50FAFD92CAF4816D8DF5FDE68F59 /* Pods_PCDateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PCDateConverter.framework; path = "Pods-PCDateConverter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8E50FAFD92CAF4816D8DF5FDE68F59 /* Pods_PCDateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCDateConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8459FF5DD0C54BD4B5CE3749AF7EA9A7 /* Pods-PCDateConverter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PCDateConverter-acknowledgements.plist"; sourceTree = "<group>"; };
 		90A3A692440C2CA93060E36D70B7DAED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90BC2D81D9F8767C0AFD72A98AA0547B /* Pods-PCDateConverterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PCDateConverterTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9290D83FCAD2CA7493D74563DC9CD57D /* Pods-PCDateConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PCDateConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3084FDFB14680C0451CDC60BE49D9BA /* Pods-PCDateConverterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PCDateConverterTests-dummy.m"; sourceTree = "<group>"; };
 		C65505AB3021DF57781B1455C0285EC6 /* Pods-PCDateConverter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PCDateConverter-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -206,6 +206,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C9636F99CBDE3F6955386C467FFB249D = {
+						LastSwiftMigration = 0800;
+					};
+					CA8DDE8ECA5727DAC5E8DE08D65D4361 = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -310,6 +318,7 @@
 				PRODUCT_NAME = Pods_PCDateConverter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -343,6 +352,7 @@
 				PRODUCT_NAME = Pods_PCDateConverterTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -376,6 +386,7 @@
 				PRODUCT_NAME = Pods_PCDateConverter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -409,6 +420,7 @@
 				PRODUCT_NAME = Pods_PCDateConverterTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
