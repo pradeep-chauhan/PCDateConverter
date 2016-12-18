@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3C00DA7C305A43AB8658ED8 /* Pods_PCDateConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC6144B090CF4393286A3A0 /* Pods_PCDateConverter.framework */; };
+		D1D31BB262DE40E15167B51B /* Pods_PCDateConverterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357B9AD9F5323772DDABA962 /* Pods_PCDateConverterTests.framework */; };
 		F9D6A4F51E064EB400B613D1 /* PCDateConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D6A4EB1E064EB300B613D1 /* PCDateConverter.framework */; };
 		F9D6A4FA1E064EB400B613D1 /* PCDateConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6A4F91E064EB400B613D1 /* PCDateConverterTests.swift */; };
 		F9D6A4FC1E064EB400B613D1 /* PCDateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D6A4EE1E064EB300B613D1 /* PCDateConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		357B9AD9F5323772DDABA962 /* Pods_PCDateConverterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCDateConverterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE6D875B2479A51EE67D2AB /* Pods-PCDateConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCDateConverter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PCDateConverter/Pods-PCDateConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		C00DD23D06F696FDC08B12C7 /* Pods-PCDateConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCDateConverterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PCDateConverterTests/Pods-PCDateConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC6144B090CF4393286A3A0 /* Pods_PCDateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCDateConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6809A5A6CD05414304D66C6 /* Pods-PCDateConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCDateConverter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PCDateConverter/Pods-PCDateConverter.release.xcconfig"; sourceTree = "<group>"; };
+		F68258918E9402F8D3329B9C /* Pods-PCDateConverterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCDateConverterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PCDateConverterTests/Pods-PCDateConverterTests.release.xcconfig"; sourceTree = "<group>"; };
 		F9D6A4EB1E064EB300B613D1 /* PCDateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PCDateConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D6A4EE1E064EB300B613D1 /* PCDateConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCDateConverter.h; sourceTree = "<group>"; };
 		F9D6A4EF1E064EB300B613D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C00DA7C305A43AB8658ED8 /* Pods_PCDateConverter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D6A4F51E064EB400B613D1 /* PCDateConverter.framework in Frameworks */,
+				D1D31BB262DE40E15167B51B /* Pods_PCDateConverterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C84254F2B0B2D3C3838111A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC6144B090CF4393286A3A0 /* Pods_PCDateConverter.framework */,
+				357B9AD9F5323772DDABA962 /* Pods_PCDateConverterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B1E1D98314D8301281668C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CE6D875B2479A51EE67D2AB /* Pods-PCDateConverter.debug.xcconfig */,
+				F6809A5A6CD05414304D66C6 /* Pods-PCDateConverter.release.xcconfig */,
+				C00DD23D06F696FDC08B12C7 /* Pods-PCDateConverterTests.debug.xcconfig */,
+				F68258918E9402F8D3329B9C /* Pods-PCDateConverterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9D6A4E11E064EB300B613D1 = {
 			isa = PBXGroup;
 			children = (
 				F9D6A4ED1E064EB300B613D1 /* PCDateConverter */,
 				F9D6A4F81E064EB400B613D1 /* PCDateConverterTests */,
 				F9D6A4EC1E064EB300B613D1 /* Products */,
+				9B1E1D98314D8301281668C4 /* Pods */,
+				0C84254F2B0B2D3C3838111A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D6A4FF1E064EB400B613D1 /* Build configuration list for PBXNativeTarget "PCDateConverter" */;
 			buildPhases = (
+				6FCEDED46A482CBB43C2EE3B /* [CP] Check Pods Manifest.lock */,
 				F9D6A4E61E064EB300B613D1 /* Sources */,
 				F9D6A4E71E064EB300B613D1 /* Frameworks */,
 				F9D6A4E81E064EB300B613D1 /* Headers */,
 				F9D6A4E91E064EB300B613D1 /* Resources */,
+				ED4AF93EC84D16E8A7691730 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D6A5021E064EB400B613D1 /* Build configuration list for PBXNativeTarget "PCDateConverterTests" */;
 			buildPhases = (
+				0723D51534C04F26E5D392D5 /* [CP] Check Pods Manifest.lock */,
 				F9D6A4F01E064EB400B613D1 /* Sources */,
 				F9D6A4F11E064EB400B613D1 /* Frameworks */,
 				F9D6A4F21E064EB400B613D1 /* Resources */,
+				5E2A67CF5D69703E4ED18920 /* [CP] Embed Pods Frameworks */,
+				22BC5DD9FD24E14C8038F5E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +227,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0723D51534C04F26E5D392D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22BC5DD9FD24E14C8038F5E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCDateConverterTests/Pods-PCDateConverterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2A67CF5D69703E4ED18920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCDateConverterTests/Pods-PCDateConverterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FCEDED46A482CBB43C2EE3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4AF93EC84D16E8A7691730 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCDateConverter/Pods-PCDateConverter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9D6A4E61E064EB300B613D1 /* Sources */ = {
@@ -319,6 +434,7 @@
 		};
 		F9D6A5001E064EB400B613D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE6D875B2479A51EE67D2AB /* Pods-PCDateConverter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -337,6 +453,7 @@
 		};
 		F9D6A5011E064EB400B613D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6809A5A6CD05414304D66C6 /* Pods-PCDateConverter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -355,6 +472,7 @@
 		};
 		F9D6A5031E064EB400B613D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00DD23D06F696FDC08B12C7 /* Pods-PCDateConverterTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PCDateConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -366,6 +484,7 @@
 		};
 		F9D6A5041E064EB400B613D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68258918E9402F8D3329B9C /* Pods-PCDateConverterTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PCDateConverterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
