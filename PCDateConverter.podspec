@@ -26,10 +26,10 @@ s.author = { "Pradeep Chauhan" => "prdpchauhan4@gmail.com" }
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter.git"
+s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter"
 
 # For example,
-# s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter.git"
+# s.homepage = "https://github.com/pradeep-chauhan/PCDateConverter"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
